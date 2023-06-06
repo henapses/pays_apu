@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.filter-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+input {
+  margin: 20px auto;
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+  transition: 0.2s;
+}
+input:focus {
+  border-radius: 30px;
+  background: rgb(238, 238, 238);
+}
+.range-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="range"] {
+  width: 250px;
+  margin: 0 10px 10px 0;
+}
+.range-container span {
+  font-size: 1.2rem;
+  transform: translateY(-3px);
+}
+.countrieslist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+}
+.countries-container {
+  flex: 1 0 20%;
+  min-width: ;
+  background-color: black;
+  color: rgb(225, 222, 222);
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 250px;
+  align-items: center;
+}
+.flag {
+  height: 100px;
+  width: 160px;
+  object-fit: cover;
+}

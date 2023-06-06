@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="filter-container">
+      <form action="">
+        <input type="text" id="inputSearch" placeholder="Rechercher" />
+      </form>
+      <div class="range-container">
+        <input type="range" value="0" max="250" id="inputRange" />
+        <span id="rangeValue">0</span>
+      </div>
+      <button class="btnSort" id="minToMax">Tri croissant</button>
+      <button class="btnSort" id="maxToMin">Tri décroissant</button>
+      <button class="btnSort" id="alpha">Tri Alphabétique</button>
+    </div>
+    <div class="countrieslist">
+      <ul class="countries-container">
+        <img src="https://flagcdn.com/w320/jo.png" alt="flag" class="flag" />
+        <h3 class="country">Chine</h3>
+        <p class="capitale">Beijing</p>
+        <p>Population : <span class="population">1402112000</span></p>
+      </ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
